@@ -1,0 +1,169 @@
+@media(max-width:1167px) {
+    .nav-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-section .div{
+        width: 24%;
+        height: 90vh;
+        background-color: var(--hover-color);
+        position: relative;
+    }
+
+    .main-section .main-img{
+        position: absolute;
+        width: 433px;
+        height: 79.5vh;
+        overflow: hidden;
+        top: 97px;
+        left: 0%;
+        z-index: 333
+    }
+    .main-container {
+        width: 63%;
+        height: 90vh;
+        position: relative;
+        background-color: #F1F6F7;
+      }
+      .main-container .main-content {
+        position: absolute;
+        top: 50%;
+        left: 43%;
+        transform: translate(-50%,-50%);
+      }
+      .main-content h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 3%;
+      }
+      .product-header {
+        width: 70%;
+        margin-left: 12%;
+      }
+      .product-list {
+        width: 98%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .product-card {
+        width: 270px;
+        height: 40vh;
+        margin-top: 50px;
+        margin-right: 22px;
+        border-radius: 5px;
+        transition: .4s;
+      }
+      .blog-list {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .blog-update {
+        width: 79vw;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        z-index: 2;
+        border-radius: 10px;
+        position: relative;
+        background-color: white;
+        box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.15);
+      }
+      .content-heading {
+        margin-bottom: 21px;
+      }
+      .content-heading h1 {
+        margin-bottom: 10px;
+        font-size: 2rem;
+        text-align: center;
+        word-spacing: -5px;
+      }
+      .content-input input {
+        width: 233px;
+        height: 40px;
+        text-align: left;
+        font-size: 15px;
+        outline: none;
+        color: var(--text-mute);
+        border-radius: 20px;
+        padding: 25px 20px;
+        border: .5px solid var(--text-mute);
+      }
+      .content-input button {
+        width: 162px;
+        height: 50px;
+        outline: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 20px;
+        border: 1px solid var(--hover-color);
+        background-color: var(--hover-color);
+        transition: .4s;
+      }
+      .footer-container {
+        width: 79vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+      .footer-content {
+        margin-top: 165px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .our-mission h1 {
+        color: white;
+        margin-bottom: 20px;
+        font-size: 2rem;
+      }
+      .quick-links {
+        width: 23%;
+        margin-right: 24px;
+      }
+      .quick-links h1 {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+      .gallary {
+        width: 21%;
+        margin-right: 30px;
+        position: relative;
+      }
+      .gallary h1 {
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 20px;
+      }
+      .contact {
+        width: 20%;
+        margin-left: 20px;
+      }
+      .contact h1{
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 20px;
+      }
+      .contact span i {
+        width: 33px;
+        height: 34px;
+        text-align: center;
+        color: white;
+        background-color: var(--hover-color);
+        padding: 10px 5px 5px 5px;
+        border-radius: 100%;
+      }
+}
+
+@media(max-width:600px) {
+  
+}
